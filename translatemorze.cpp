@@ -7,12 +7,12 @@ TranslateMorze::TranslateMorze(QWidget *parent)
     TE_Translate=new QTextEdit;
     TE_Translate->setReadOnly(true);
 
-    lbl_Text=new  QLabel("&Enter the text or a Morse code");
+    lbl_Text=new  QLabel("&Enter text or Morse code");
     lbl_Text->setBuddy(TE_Text);
     lbl_Translate=new  QLabel("&Ready translation");
     lbl_Translate->setBuddy(TE_Translate);
 
-    PB_Translate=new QPushButton("&To translate");
+    PB_Translate=new QPushButton("&Translate");
 
     VBL_Text=new QVBoxLayout;
     VBL_Translate=new QVBoxLayout;
